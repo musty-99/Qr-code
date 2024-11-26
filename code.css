@@ -11,7 +11,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .box-wrapper {
@@ -26,10 +25,33 @@ body{
 img {
     width: 280px;
     height: 300px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-h3,p {
-    align-items: center;
-    justify-content: center;
+.letter-content, h3, p {
+    text-align: center;
+    padding: 0 15px 0 0;
+
+}
+
+h3 {
+    font-family: outfit;
+    font-size: x-large;
+    color: #1f2939;
+}
+
+p {
+    color: grey;
+    font-size: 17px;
+}
+
+@media {
+   body {
+    display: block;
+    max-width: 320px;
+    min-width: none;
+    max-height: fit-content;
+   }
+
+
 }
